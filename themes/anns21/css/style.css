@@ -28,6 +28,10 @@ body {
 
 .main {
     flex: 1 0 auto;
+    padding: 1em;
+    border-radius: 8px;
+    background-color: rgb(252, 235, 247);
+    margin-bottom: 1em;
 }
 
 .header, .footer {
@@ -72,7 +76,9 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    background-color: rgb(255, 199, 241);
+    padding: 1em;
+    border-radius: 8px;
 }
 
 .footer a {
@@ -95,6 +101,10 @@ p, td, th, li, dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
+}
+
+p {
+    margin-bottom: 1em;
 }
 
 h1, h2, h3, h4, h5, h6 {
