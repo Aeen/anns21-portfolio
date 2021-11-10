@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6457,40 +6458,64 @@ template {
   font-family: "Montserrat", sans-serif;
 }
 
-body {
-  line-height: 1.5rem;
+html {
+  font-size: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+body {
+  line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 0.6em;
   font-weight: bold;
 }
 
-p, td, th, li, dd {
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 3.5rem;
+  /* baseline * 2, för att skapa mer utrymme */
+}
+
+p,
+td,
+th,
+li,
+dd {
   text-align: justify;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
 
 p {
-  margin-bottom: 1em;
+  font-size: 1.25em;
+  margin-bottom: 1.75rem;
+  /* 1.4 * 1.25em vår baseline */
 }
 
-img {
-  max-width: 100%;
+@media (min-width: 64em) {
+  html {
+    font-size: 112.5%;
+  }
 }
-
 .header {
   flex: 0 0 auto;
 }
 
-.header, .site-header {
+.header,
+.site-header {
   display: flex;
   justify-content: space-between;
 }
 
-.title, .logo {
+.title,
+.logo {
   padding: 3em 3em 3em 0;
 }
 
@@ -6499,7 +6524,8 @@ img {
 }
 
 @media (max-width: 767px) {
-  .title, .logo {
+  .title,
+.logo {
     padding: 1em 1em 1em 0;
   }
 
@@ -6570,7 +6596,7 @@ blockquote {
   padding: 0;
 }
 
-html, body {
+html {
   height: 100%;
 }
 
@@ -6579,6 +6605,7 @@ body {
   flex-direction: column;
   margin: auto;
   width: 80%;
+  height: 100%;
 }
 
 .main {
@@ -6589,10 +6616,15 @@ body {
   margin-bottom: 1em;
 }
 
-ol, ul {
+ol,
+ul {
   padding-left: 1.5em;
 }
 
 .hidden {
   display: none !important;
+}
+
+img {
+  max-width: 100%;
 }

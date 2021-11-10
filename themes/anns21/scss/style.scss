@@ -21,7 +21,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     padding: 0;
 }
 
-html, body {
+html {
     height: 100%;
 }
 
@@ -30,6 +30,7 @@ body {
     flex-direction: column;
     margin: auto;
     width: 80%;
+    height: 100%;
 }
 
 .main {
@@ -40,10 +41,15 @@ body {
     margin-bottom: 1em;
 }
 
-ol, ul {
+ol,
+ul {
     padding-left: 1.5em;
 }
 
 .hidden {
     display: none !important;
+}
+
+img {
+    max-width: 100%;
 }
