@@ -1,0 +1,28 @@
+.header {
+    flex: 0 0 auto;
+}
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title, .logo {
+    padding: 3em 3em 3em 0;
+}
+
+.title p {
+    font-style: italic;
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    .title {
+        min-width: 50%;
+    }
+    .logo {
+        max-width: 30%;
+    }
+}

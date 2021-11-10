@@ -1,0 +1,29 @@
+* {
+    color: $font-color;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    line-height: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+
+p, td, th, li, dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+img {
+    max-width: 100%;
+}

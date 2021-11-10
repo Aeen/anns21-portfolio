@@ -4,8 +4,8 @@ Tagline: My portfolio.
 Social:
     - title: Länk till sidans github repo.
       url: https://github.com/Aeen/anns21-portfolio
-      icon: github
+      icon: fab fa-github
     - title: Länk till min Linkedin.
       url: https://www.linkedin.com/in/anna-nilsson-177374121/
-      icon: linkedin
+      icon: fab fa-linkedin
 ---
