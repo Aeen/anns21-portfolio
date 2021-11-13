@@ -8,26 +8,16 @@
     justify-content: space-between;
 }
 
-.title,
 .logo {
-    padding: 3em 3em 3em 0;
+    padding: 2em 0 1em;
 }
 
-.title p {
-    font-style: italic;
-}
-
-@media (max-width: 767px) {
-    .title,
+@media (max-width: 40em) {
     .logo {
-        padding: 1em 1em 1em 0;
-    }
-
-    .title {
-        min-width: 50%;
+        max-width: 80%;
     }
 
     .logo {
-        max-width: 30%;
+        padding: 1em 0;
     }
 }

@@ -3,7 +3,7 @@
     flex: 0 0 auto;
     justify-content: space-between;
     background-color: $background-footer-color;
-    padding: 1em;
+    padding: 1.5em;
     border-radius: 8px;
 }
 
@@ -11,6 +11,14 @@
     color: $link-color;
 }
 
+.footer p {
+    margin: 0;
+}
+
 .footer .social {
     font-size: 2rem;
+}
+
+.social a {
+    text-decoration: none;
 }

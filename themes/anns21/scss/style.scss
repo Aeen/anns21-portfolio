@@ -8,6 +8,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'variables';
 @import 'typography';
 @import 'header';
+@import 'nav';
 @import 'footer';
 @import 'code';
 @import 'blockquotes';
@@ -29,13 +30,13 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 80%;
+    width: 70%;
     height: 100%;
 }
 
 .main {
     flex: 1 0 auto;
-    padding: 1em;
+    padding: 1.5em;
     border-radius: 8px;
     background-color: $background-main-color;
     margin-bottom: 1em;

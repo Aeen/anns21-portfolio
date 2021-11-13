@@ -6475,12 +6475,8 @@ h6 {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 0.6em;
   font-weight: bold;
-}
-
-h1 {
-  font-size: 2.5em;
-  margin-bottom: 3.5rem;
-  /* baseline * 2, för att skapa mer utrymme */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 p,
@@ -6494,14 +6490,22 @@ dd {
 }
 
 p {
-  font-size: 1.25em;
+  font-size: 1em;
   margin-bottom: 1.75rem;
-  /* 1.4 * 1.25em vår baseline */
+  /* 1.75 * 1em vår baseline */
 }
 
-@media (min-width: 64em) {
-  html {
-    font-size: 112.5%;
+@media (max-width: 40em) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.25em;
+  }
+
+  p {
+    text-align: left;
   }
 }
 .header {
@@ -6514,27 +6518,55 @@ p {
   justify-content: space-between;
 }
 
-.title,
 .logo {
-  padding: 3em 3em 3em 0;
+  padding: 2em 0 1em;
 }
 
-.title p {
-  font-style: italic;
-}
-
-@media (max-width: 767px) {
-  .title,
-.logo {
-    padding: 1em 1em 1em 0;
-  }
-
-  .title {
-    min-width: 50%;
+@media (max-width: 40em) {
+  .logo {
+    max-width: 80%;
   }
 
   .logo {
-    max-width: 30%;
+    padding: 1em 0;
+  }
+}
+.nav ul li {
+  background-color: #ffc7f1;
+  margin-top: 0.5em;
+  padding: 0.75em;
+}
+
+.nav ul {
+  padding: 0;
+}
+
+.nav ul li:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.nav ul li:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.nav ul li:hover {
+  background-color: #fcebf7;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+@media (max-width: 40em) {
+  .nav ul li {
+    border-radius: 8px;
+    font-weight: bold;
+  }
+
+  .nav ul li:last-child {
+    margin-bottom: 0.5em;
   }
 }
 .footer {
@@ -6542,7 +6574,7 @@ p {
   flex: 0 0 auto;
   justify-content: space-between;
   background-color: #ffc7f1;
-  padding: 1em;
+  padding: 1.5em;
   border-radius: 8px;
 }
 
@@ -6550,8 +6582,16 @@ p {
   color: #222;
 }
 
+.footer p {
+  margin: 0;
+}
+
 .footer .social {
   font-size: 2rem;
+}
+
+.social a {
+  text-decoration: none;
 }
 
 code {
@@ -6604,13 +6644,13 @@ body {
   display: flex;
   flex-direction: column;
   margin: auto;
-  width: 80%;
+  width: 70%;
   height: 100%;
 }
 
 .main {
   flex: 1 0 auto;
-  padding: 1em;
+  padding: 1.5em;
   border-radius: 8px;
   background-color: #fcebf7;
   margin-bottom: 1em;
