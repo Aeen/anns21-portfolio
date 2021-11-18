@@ -1,6 +1,7 @@
 .footer {
     display: flex;
     flex: 0 0 auto;
+    align-items: center;
     justify-content: space-between;
     background-color: $background-footer-color;
     padding: 1.5em;
@@ -21,4 +22,11 @@
 
 .social a {
     text-decoration: none;
+}
+
+@media (max-width: 40em) {
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+    }
 }

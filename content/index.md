@@ -6,7 +6,7 @@ Description: This is our index page.
 En presentation av Anna
 ==========================
 
-Mitt namn är Anna, och jag bor i Löddeköpinge (skåne) tillsammans med min familj som består av en sambo och tre barn som är 7 år, 5 år och 2 år. Jag har varit hemmaförälder fram tills nu i höst, och har studerat på kvällar och helger för att kunna va hemma med barnen längre. 
+Mitt namn är Anna, och jag bor i Löddeköpinge (skåne) tillsammans med min familj som består av min sambo och tre barn som är 7 år, 5 år och 2 år. Jag har varit hemmaförälder fram tills nu i höst, och har studerat på kvällar och helger för att kunna va hemma med barnen längre. 
 
 Jag tog en högskoleexamen i Informatik förra året, och skriver nu parallellt med denna kurs på mitt examensarbete för att kunna ta en kandidat i Informatik. Till våren är det dags att söka jobb, samtidigt som jag läser klart den sista terminen av detta kurspaket som jag läser på distans, och sen får vi se vad som händer. Jag skulle gärna vilja läsa mer och ta ut en högre examen tids nog.
 

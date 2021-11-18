@@ -6,51 +6,14 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables';
+@import 'base';
 @import 'typography';
 @import 'header';
 @import 'nav';
+@import 'technologies';
+@import 'technology';
 @import 'footer';
 @import 'code';
 @import 'blockquotes';
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
-
-* {
-    box-sizing: border-box;
-    border: 0 none;
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    height: 100%;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: 70%;
-    height: 100%;
-}
-
-.main {
-    flex: 1 0 auto;
-    padding: 1.5em;
-    border-radius: 8px;
-    background-color: $background-main-color;
-    margin-bottom: 1em;
-}
-
-ol,
-ul {
-    padding-left: 1.5em;
-}
-
-.hidden {
-    display: none !important;
-}
-
-img {
-    max-width: 100%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Corben&family=Eczar&family=Montserrat&family=Open+Sans&display=swap');

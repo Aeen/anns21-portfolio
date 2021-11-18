@@ -1,0 +1,52 @@
+.landingpage {
+    display: grid;
+    grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: row;
+    grid-template-rows: auto; /* Översta raden */
+    grid-auto-rows: 150px; /* Övriga rader */
+    gap: 2.5em;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    margin-bottom: 0;
+}
+
+.tech-box {
+    grid-column: span 1;
+    padding: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    background-image: linear-gradient(160deg, $background-hover-nav-color, $background-main-color 70%);
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px #1c1c1c, 0 0 0 3px #c67373, 0 0 0 9px $background-hover-nav-color, 0 0 0 10px #1c1c1c;
+}
+
+.tech-box:hover {
+    box-shadow: 0 0 0 2px #1c1c1c, 0 0 0 3px #ff8f8f, 0 0 0 9px #ee656c, 0 0 0 10px #1c1c1c;
+}
+
+.project {
+    grid-column: span 3;
+}
+
+.tech {
+    padding: 1em 2em 2em;
+}
+
+@media (max-width: 30em) {
+    .landingpage {
+        grid-auto-rows: 100px;
+        gap: 2em;
+    }
+
+    .tech-box {
+        grid-column: span 3;
+    }
+
+    .tech {
+        padding: 1em 2em 2em;
+    }
+
+}

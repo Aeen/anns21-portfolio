@@ -1,0 +1,19 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="tech-container">
+        <div class="tech-nav">
+            {% include 'incl/technology-nav.twig' %}
+        </div>
+        
+        <div class="main tech-page" role="main">
+            {{ content }}
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

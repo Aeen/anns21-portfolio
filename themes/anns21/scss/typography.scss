@@ -18,10 +18,15 @@ h4,
 h5,
 h6 {
     font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
     margin-bottom: 0.6em;
     font-weight: bold;
     overflow-wrap: break-word;
     word-wrap: break-word;
+}
+
+h1 {
+    font-family: 'Corben', cursive;
 }
 
 p,

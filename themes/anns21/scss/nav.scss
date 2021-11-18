@@ -19,7 +19,12 @@
 }
 
 .nav ul li:hover {
-    background-color: $background-main-color;
+    background-color: $background-hover-nav-color;
+}
+
+.nav ul li:hover a {
+    color: $font-alternative-color;
+    font-weight: bold;
 }
 
 .nav a {
