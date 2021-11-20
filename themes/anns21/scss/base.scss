@@ -37,6 +37,7 @@ ul {
 
 img {
     max-width: 100%;
+    border-radius: 5px;
 }
 
 @media (max-width: 60em) {
@@ -53,4 +54,5 @@ img {
     .main {
         padding: 0.5em;
     }
+
 }

@@ -1,6 +1,13 @@
 $font-color: #000;
 $font-alternative-color: #fff;
 $link-color: #222;
-$background-main-color: rgb(255, 210, 232);
-$background-footer-color: rgb(255, 183, 183);
-$background-hover-nav-color: rgb(255, 157, 157);
+$darkGrey-color: #1c1c1c;
+$lightPink-color: rgb(255, 143, 143); // #FF8F8F
+$DirtyPink: rgb(198, 115, 115); // #C67373
+$darkPink-color: rgb(238, 101, 108); // #EE656C
+$background-main-color: rgb(255, 210, 232); // #FFD2E8
+$background-footer-color: rgb(255, 183, 183); // #FFB7B7
+$background-hover-nav-color: rgb(255, 157, 157); // #FF9D9D
+
+$boxShadow: 0 0 0 2px $darkGrey-color, 0 0 0 3px $DirtyPink, 0 0 0 9px $background-hover-nav-color, 0 0 0 10px $darkGrey-color;
+$boxShadow-hover: 0 0 0 2px $darkGrey-color, 0 0 0 3px $lightPink-color, 0 0 0 9px $darkPink-color, 0 0 0 10px $darkGrey-color;

@@ -51,4 +51,4 @@ och köra JavaScript program utanför en webbläsare.
 ## Npm ##
 Npm (Node Package Manager) är JavaSrcipts pakethanterare 
 som bland annat underlättar stylandet och förbättrar 
-webbplatsens laddningstid
+webbplatsens laddningstid.

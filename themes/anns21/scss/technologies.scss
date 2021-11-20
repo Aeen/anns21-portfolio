@@ -20,11 +20,11 @@
     font-weight: bold;
     background-image: linear-gradient(160deg, $background-hover-nav-color, $background-main-color 70%);
     border-radius: 10px;
-    box-shadow: 0 0 0 2px #1c1c1c, 0 0 0 3px #c67373, 0 0 0 9px $background-hover-nav-color, 0 0 0 10px #1c1c1c;
+    box-shadow: ($boxShadow);
 }
-
+;
 .tech-box:hover {
-    box-shadow: 0 0 0 2px #1c1c1c, 0 0 0 3px #ff8f8f, 0 0 0 9px #ee656c, 0 0 0 10px #1c1c1c;
+    box-shadow:($boxShadow-hover);
 }
 
 .project {

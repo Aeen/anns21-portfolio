@@ -10,10 +10,15 @@
     border-radius: 8px;
     background-color: $background-footer-color;
     margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 
     a {
-        font-family: 'Eczar', serif;
         text-decoration: none;
+    }
+    
+    a:hover {
+        color: $font-alternative-color;
     }
 }
 
@@ -26,19 +31,9 @@
         padding: 0.25em 1em;
     }
 
-    li:first-child {
-        margin-top: 1em;
-    }
-
-    li:last-child {
-        margin-bottom: 1em;
-    }
-
     li:hover {
         background-color: $background-hover-nav-color;
-    }
-
-    li:hover a {
+        cursor: pointer;
         color: $font-alternative-color;
         font-weight: bold;
     }

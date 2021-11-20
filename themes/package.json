@@ -8,8 +8,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass anns21/scss/style.scss anns21/css/style.css --no-source-map",
-    "style-min": "sass anns21/scss/style.scss anns21/css/style.min.css --no-source-map --style compressed"
+    "watch": "sass anns21/scss/style.scss:anns21/css/style.css anns21/scss/style-dark.scss:anns21/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass anns21/scss/style.scss:anns21/css/style.min.css anns21/scss/style-dark.scss:anns21/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass anns21/scss/style-dark.scss anns21/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass anns21/scss/style-dark.scss anns21/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass anns21/scss/style.scss anns21/css/style.css --no-source-map",
+    "style-light-min": "sass anns21/scss/style.scss anns21/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
