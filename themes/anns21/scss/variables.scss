@@ -1,13 +1,20 @@
 $font-color: #000;
 $font-alternative-color: #fff;
+$font-technav-color: $font-alternative-color;
 $link-color: #222;
-$darkGrey-color: #1c1c1c;
-$lightPink-color: rgb(255, 143, 143); // #FF8F8F
-$DirtyPink: rgb(198, 115, 115); // #C67373
-$darkPink-color: rgb(238, 101, 108); // #EE656C
+$darkgrey-color: #121212;
+$lightpink-color: rgb(255, 143, 143); // #FF8F8F
+$dirtypink: rgb(198, 115, 115); // #C67373
+$darkpink-color: rgb(238, 101, 108); // #EE656C
+$background-body-color: #fff;
 $background-main-color: rgb(255, 210, 232); // #FFD2E8
-$background-footer-color: rgb(255, 183, 183); // #FFB7B7
+$background-footer-color: rgb(255, 183, 183); // #FFB7B7 (logo-färg)
 $background-hover-nav-color: rgb(255, 157, 157); // #FF9D9D
+$background-hover-technav-color: $background-hover-nav-color;
+$background-code-color: #f5f5f5;
+$border-code-color: #ccc;
+$tech-box-color1: $background-hover-nav-color;
+$tech-box-color2: $background-main-color;
 
-$boxShadow: 0 0 0 2px $darkGrey-color, 0 0 0 3px $DirtyPink, 0 0 0 9px $background-hover-nav-color, 0 0 0 10px $darkGrey-color;
-$boxShadow-hover: 0 0 0 2px $darkGrey-color, 0 0 0 3px $lightPink-color, 0 0 0 9px $darkPink-color, 0 0 0 10px $darkGrey-color;
+$box-shadow-color: 0 0 0 2px $darkgrey-color, 0 0 0 3px $dirtypink, 0 0 0 9px $background-hover-nav-color, 0 0 0 10px $darkgrey-color;
+$box-shadow-hover: 0 0 0 2px $darkgrey-color, 0 0 0 3px $lightpink-color, 0 0 0 9px $darkpink-color, 0 0 0 10px $darkgrey-color;

@@ -1,5 +1,5 @@
 ---
-Logo: image/anna_logo.jpg
+Logo: image/anna_logo.png
 Tagline: My portfolio.
 Social:
     - title: Länk till sidans github repo.

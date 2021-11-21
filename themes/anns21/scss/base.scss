@@ -16,6 +16,7 @@ body {
     width: 70%;
     max-width: 1200px;
     height: 100%;
+    background-color: $background-body-color;
 }
 
 .main {
@@ -23,7 +24,6 @@ body {
     border-radius: 8px;
     background-color: $background-main-color;
     margin-bottom: 1em;
-    max-width: 1200px;
 }
 
 ol,

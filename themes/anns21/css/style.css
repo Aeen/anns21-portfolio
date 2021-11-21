@@ -6471,6 +6471,7 @@ body {
   width: 70%;
   max-width: 1200px;
   height: 100%;
+  background-color: #fff;
 }
 
 .main {
@@ -6478,7 +6479,6 @@ body {
   border-radius: 8px;
   background-color: #ffd2e8;
   margin-bottom: 1em;
-  max-width: 1200px;
 }
 
 ol,
@@ -6619,6 +6619,7 @@ p {
 }
 
 .nav a {
+  color: #222;
   text-decoration: none;
   display: block;
   padding: 0.75em 0.25em;
@@ -6658,11 +6659,11 @@ p {
   font-weight: bold;
   background-image: linear-gradient(160deg, #ff9d9d, #ffd2e8 70%);
   border-radius: 10px;
-  box-shadow: 0 0 0 2px #1c1c1c, 0 0 0 3px #c67373, 0 0 0 9px #ff9d9d, 0 0 0 10px #1c1c1c;
+  box-shadow: 0 0 0 2px #121212, 0 0 0 3px #c67373, 0 0 0 9px #ff9d9d, 0 0 0 10px #121212;
 }
 
 .tech-box:hover {
-  box-shadow: 0 0 0 2px #1c1c1c, 0 0 0 3px #ff8f8f, 0 0 0 9px #ee656c, 0 0 0 10px #1c1c1c;
+  box-shadow: 0 0 0 2px #121212, 0 0 0 3px #ff8f8f, 0 0 0 9px #ee656c, 0 0 0 10px #121212;
 }
 
 .project {
@@ -6705,23 +6706,19 @@ p {
 .tech-nav a {
   text-decoration: none;
 }
-.tech-nav a:hover {
-  color: #fff;
-}
 
 .tech-nav ul {
   list-style-type: none;
   padding: 0;
 }
 .tech-nav ul li {
-  border-radius: 8px;
   padding: 0.25em 1em;
 }
 .tech-nav ul li:hover {
   background-color: #ff9d9d;
   cursor: pointer;
-  color: #fff;
   font-weight: bold;
+  color: #fff;
 }
 
 .tech-page {

@@ -16,10 +16,6 @@
     a {
         text-decoration: none;
     }
-    
-    a:hover {
-        color: $font-alternative-color;
-    }
 }
 
 .tech-nav ul {
@@ -27,15 +23,14 @@
     padding: 0;
 
     li {
-        border-radius: 8px;
         padding: 0.25em 1em;
     }
 
     li:hover {
-        background-color: $background-hover-nav-color;
+        background-color: $background-hover-technav-color;
         cursor: pointer;
-        color: $font-alternative-color;
         font-weight: bold;
+        color: $font-technav-color;
     }
 }
 

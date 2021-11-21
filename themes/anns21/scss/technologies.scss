@@ -18,13 +18,13 @@
     cursor: pointer;
     text-decoration: none;
     font-weight: bold;
-    background-image: linear-gradient(160deg, $background-hover-nav-color, $background-main-color 70%);
+    background-image: linear-gradient(160deg, $tech-box-color1, $tech-box-color2 70%);
     border-radius: 10px;
-    box-shadow: ($boxShadow);
+    box-shadow: ($box-shadow-color);
 }
-;
+
 .tech-box:hover {
-    box-shadow:($boxShadow-hover);
+    box-shadow:($box-shadow-hover);
 }
 
 .project {

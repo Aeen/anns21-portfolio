@@ -6471,14 +6471,14 @@ body {
   width: 70%;
   max-width: 1200px;
   height: 100%;
+  background-color: #121212;
 }
 
 .main {
   padding: 1em 2em;
   border-radius: 8px;
-  background-color: #ffd2e8;
+  background-color: rgba(255, 255, 255, 0.05);
   margin-bottom: 1em;
-  max-width: 1200px;
 }
 
 ol,
@@ -6510,7 +6510,7 @@ img {
   }
 }
 * {
-  color: #000;
+  color: rgba(255, 255, 255, 0.87);
   font-family: "Montserrat", sans-serif;
 }
 
@@ -6590,7 +6590,7 @@ p {
   }
 }
 .nav ul li {
-  background-color: #ffb7b7;
+  background-color: rgba(255, 255, 255, 0.12);
   margin-top: 0.5em;
 }
 
@@ -6609,16 +6609,17 @@ p {
 }
 
 .nav ul li:hover {
-  background-color: #ff9d9d;
+  background-color: rgba(255, 255, 255, 0.08);
   cursor: pointer;
 }
 
 .nav ul li:hover a {
-  color: #fff;
+  color: #f9c8d9;
   font-weight: bold;
 }
 
 .nav a {
+  color: rgba(255, 255, 255, 0.87);
   text-decoration: none;
   display: block;
   padding: 0.75em 0.25em;
@@ -6656,13 +6657,13 @@ p {
   cursor: pointer;
   text-decoration: none;
   font-weight: bold;
-  background-image: linear-gradient(160deg, #ff9d9d, #ffd2e8 70%);
+  background-image: linear-gradient(160deg, #000, rgba(255, 255, 255, 0.05) 70%);
   border-radius: 10px;
-  box-shadow: 0 0 0 2px #1c1c1c, 0 0 0 3px #c67373, 0 0 0 9px #ff9d9d, 0 0 0 10px #1c1c1c;
+  box-shadow: 0 0 0 2px #121212, 0 0 0 3px rgba(255, 255, 255, 0.08), 0 0 0 9px rgba(255, 255, 255, 0.12), 0 0 0 10px #121212;
 }
 
 .tech-box:hover {
-  box-shadow: 0 0 0 2px #1c1c1c, 0 0 0 3px #ff8f8f, 0 0 0 9px #ee656c, 0 0 0 10px #1c1c1c;
+  box-shadow: 0 0 0 2px #121212, 0 0 0 3px rgba(255, 255, 255, 0.05), 0 0 0 9px rgba(255, 255, 255, 0.05), 0 0 0 10px #121212;
 }
 
 .project {
@@ -6697,7 +6698,7 @@ p {
 .tech-nav {
   grid-column: span 1;
   border-radius: 8px;
-  background-color: #ffb7b7;
+  background-color: rgba(255, 255, 255, 0.12);
   margin-bottom: 1em;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -6705,23 +6706,19 @@ p {
 .tech-nav a {
   text-decoration: none;
 }
-.tech-nav a:hover {
-  color: #fff;
-}
 
 .tech-nav ul {
   list-style-type: none;
   padding: 0;
 }
 .tech-nav ul li {
-  border-radius: 8px;
   padding: 0.25em 1em;
 }
 .tech-nav ul li:hover {
-  background-color: #ff9d9d;
+  background-color: rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  color: #fff;
   font-weight: bold;
+  color: rgba(255, 255, 255, 0.87);
 }
 
 .tech-page {
@@ -6747,13 +6744,13 @@ p {
   flex: 0 0 auto;
   align-items: center;
   justify-content: space-between;
-  background-color: #ffb7b7;
+  background-color: rgba(255, 255, 255, 0.12);
   padding: 1.5em;
   border-radius: 8px;
 }
 
 .footer a {
-  color: #222;
+  color: rgba(255, 255, 255, 0.87);
 }
 
 .footer p {
@@ -6779,7 +6776,7 @@ code {
   padding: 0.1em 0.2em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: rgba(255, 255, 255, 0.08);
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6787,9 +6784,9 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #ccc;
+  border: 1px solid #121212;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: rgba(255, 255, 255, 0.08);
 }
 
 pre code {
@@ -6806,5 +6803,5 @@ blockquote {
   font-style: italic;
   margin-left: 1em;
   padding-left: 1em;
-  border-left: 0.5em solid #f5f5f5;
+  border-left: 0.5em solid rgba(255, 255, 255, 0.08);
 }
