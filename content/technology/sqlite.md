@@ -2,6 +2,7 @@
 Title: Sqlite
 Description: This is our sqlite page.
 Template: technology
+menu: technology
 ---
 
 # SQLite

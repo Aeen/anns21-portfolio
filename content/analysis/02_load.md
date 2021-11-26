@@ -2,6 +2,7 @@
 Title: 02 Load
 Description: This is our 02 load page.
 Template: technology
+menu: analysis
 ---
 
 # 02 Load

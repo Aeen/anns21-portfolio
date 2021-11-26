@@ -2,6 +2,7 @@
 Title: 03 Design principles
 Description: This is our 03 design principles page.
 Template: technology
+menu: analysis
 ---
 
 # 03 Design principles

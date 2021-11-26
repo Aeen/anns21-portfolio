@@ -2,6 +2,7 @@
 Title: Css
 Description: This is our css page.
 Template: technology
+menu: technology
 ---
 
 # CSS

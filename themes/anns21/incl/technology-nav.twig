@@ -1,6 +1,6 @@
 <div id="nav" role="navigation" tabindex="-1">
         <ul>
-            {% for page in pages("technology") if page.title and not page.hidden %}
+            {% for page in pages(meta.menu) if page.title and not page.hidden %}
                 <a href="{{ page.url }}">
                 <li{% if page.id==current_page.id %} {% endif %}>
                 {{ page.title }}

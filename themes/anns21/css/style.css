@@ -6715,12 +6715,11 @@ p {
 .tech-container {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: fit-content(195px) minmax(70%, auto);
   grid-gap: 1em;
 }
 
 .tech-nav {
-  grid-column: span 1;
   border-radius: 8px;
   background-color: #ffb7b7;
   margin-bottom: 1em;
@@ -6737,16 +6736,13 @@ p {
 }
 .tech-nav ul li {
   padding: 0.25em 1em;
+  text-align: left;
 }
 .tech-nav ul li:hover {
   background-color: #ff9e9e;
   cursor: pointer;
   font-weight: bold;
   color: #fff;
-}
-
-.tech-page {
-  grid-column: span 5;
 }
 
 @media (max-width: 40em) {

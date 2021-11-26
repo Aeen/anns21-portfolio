@@ -2,6 +2,7 @@
 Title: JavaScript
 Description: This is our JavaScript page.
 Template: technology
+menu: technology
 ---
 
 # JavaScript

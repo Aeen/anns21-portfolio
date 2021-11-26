@@ -2,6 +2,7 @@
 Title: Python
 Description: This is our python page.
 Template: technology
+menu: technology
 ---
 
 # Python

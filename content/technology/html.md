@@ -2,6 +2,7 @@
 Title: Html
 Description: This is our html page.
 Template: technology
+menu: technology
 ---
 
 # HTML

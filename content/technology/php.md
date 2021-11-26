@@ -2,6 +2,7 @@
 Title: Php
 Description: This is our php page.
 Template: technology
+menu: technology
 ---
 
 # PHP

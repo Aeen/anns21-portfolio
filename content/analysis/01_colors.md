@@ -2,6 +2,7 @@
 Title: 01 Colors
 Description: This is our 01 color page.
 Template: technology
+menu: analysis
 ---
 
 # 01 Colors

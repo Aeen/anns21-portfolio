@@ -2,6 +2,7 @@
 Title: Git
 Description: This is our git page.
 Template: technology
+menu: technology
 ---
 
 # Git
