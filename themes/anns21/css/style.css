@@ -9,10 +9,10 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Corben&family=Montserrat&family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-@import url(//db.onlinewebfonts.com/c/74c3c29282b604a9eed88ac6ede61463?family=Apercu+Pro);
-@import url(//db.onlinewebfonts.com/c/875d445ef6a039fad13732496bf7e6ef?family=AnimatedGothicW90-Heavy);
-@import url(//db.onlinewebfonts.com/c/63137a821976b7fdfcf941ab1528cb19?family=AG_Helvetica);
-@import url(//db.onlinewebfonts.com/c/04694cfc9bf42837acabe30f8cc70924?family=Fresca);
+@import url("//db.onlinewebfonts.com/c/74c3c29282b604a9eed88ac6ede61463?family=Apercu+Pro");
+@import url("//db.onlinewebfonts.com/c/875d445ef6a039fad13732496bf7e6ef?family=AnimatedGothicW90-Heavy");
+@import url("//db.onlinewebfonts.com/c/63137a821976b7fdfcf941ab1528cb19?family=AG_Helvetica");
+@import url("//db.onlinewebfonts.com/c/04694cfc9bf42837acabe30f8cc70924?family=Fresca");
 html {
   line-height: 1.15;
   /* 1 */
@@ -6490,6 +6490,9 @@ body {
   background-color: #ffebeb;
   margin-bottom: 1em;
 }
+.main img {
+  filter: brightness(100%);
+}
 
 ol,
 ul {
@@ -6503,6 +6506,17 @@ ul {
 img {
   max-width: 100%;
   border-radius: 5px;
+}
+
+.color-palette {
+  height: 50px;
+  width: 50px;
+}
+
+.table-palette {
+  border-spacing: 4px;
+  border-collapse: separate;
+  padding-bottom: 1em;
 }
 
 @media (max-width: 60em) {
@@ -6786,7 +6800,7 @@ code {
   padding: 0.1em 0.2em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #fafff7;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6794,9 +6808,9 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #ccc;
+  border: 1px solid #ffb7b7;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #fafff7;
 }
 
 pre code {
@@ -6813,5 +6827,5 @@ blockquote {
   font-style: italic;
   margin-left: 1em;
   padding-left: 1em;
-  border-left: 0.5em solid #f5f5f5;
+  border-left: 0.5em solid #fafff7;
 }

@@ -1,5 +1,5 @@
 $font-color: rgba(255, 255, 255, 0.87);
-$font-alternative-color: #f9c8d9;
+$font-alternative-color: $font-color;
 $font-technav-color: $font-color;
 $link-color: $font-color;
 $darkgrey-color: #121212;
@@ -8,12 +8,17 @@ $almostblack-color: rgba(255, 255, 255, 0.03);
 $background-body-color: $darkgrey-color; 
 $background-main-color: rgba(255, 255, 255, 0.05); 
 $background-footer-color: rgba(255, 255, 255, 0.12);
-$background-hover-nav-color: rgba(255, 255, 255, 0.08);
-$background-hover-technav-color: rgba(0, 0, 0, 0.3);;
+$background-hover-nav-color: rgba(255, 255, 255, 0.2);
+$background-hover-technav-color: $background-hover-nav-color;
 $background-code-color: $background-hover-nav-color;
 $border-code-color: $darkgrey-color;
 $tech-box-color1: $black-color;
 $tech-box-color2: $background-main-color;
+$image-filter: brightness(75%);
 
 $box-shadow-color: 0 0 0 2px $darkgrey-color, 0 0 0 3px $background-hover-nav-color, 0 0 0 9px $background-footer-color, 0 0 0 10px $darkgrey-color;
-$box-shadow-hover: 0 0 0 2px $darkgrey-color, 0 0 0 3px $background-main-color, 0 0 0 9px $background-main-color, 0 0 0 10px $darkgrey-color;
+$box-shadow-hover: 0 0 0 2px $darkgrey-color, 0 0 0 3px $background-main-color, 0 0 0 9px $background-hover-nav-color, 0 0 0 10px $darkgrey-color;
+
+$font-standard: 'Montserrat', sans-serif;
+$font-headings: 'Balsamiq Sans', cursive;
+$font-h1: 'Acme', sans-serif;

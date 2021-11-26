@@ -7,12 +7,12 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Corben&family=Montserrat&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Balsamiq+Sans&family=Montserrat:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-@import url(//db.onlinewebfonts.com/c/74c3c29282b604a9eed88ac6ede61463?family=Apercu+Pro);
-@import url(//db.onlinewebfonts.com/c/875d445ef6a039fad13732496bf7e6ef?family=AnimatedGothicW90-Heavy);
-@import url(//db.onlinewebfonts.com/c/63137a821976b7fdfcf941ab1528cb19?family=AG_Helvetica);
-@import url(//db.onlinewebfonts.com/c/04694cfc9bf42837acabe30f8cc70924?family=Fresca);
+@import url("//db.onlinewebfonts.com/c/74c3c29282b604a9eed88ac6ede61463?family=Apercu+Pro");
+@import url("//db.onlinewebfonts.com/c/875d445ef6a039fad13732496bf7e6ef?family=AnimatedGothicW90-Heavy");
+@import url("//db.onlinewebfonts.com/c/63137a821976b7fdfcf941ab1528cb19?family=AG_Helvetica");
+@import url("//db.onlinewebfonts.com/c/04694cfc9bf42837acabe30f8cc70924?family=Fresca");
 html {
   line-height: 1.15;
   /* 1 */
@@ -6490,6 +6490,9 @@ body {
   background-color: rgba(255, 255, 255, 0.05);
   margin-bottom: 1em;
 }
+.main img {
+  filter: brightness(75%);
+}
 
 ol,
 ul {
@@ -6503,6 +6506,17 @@ ul {
 img {
   max-width: 100%;
   border-radius: 5px;
+}
+
+.color-palette {
+  height: 50px;
+  width: 50px;
+}
+
+.table-palette {
+  border-spacing: 4px;
+  border-collapse: separate;
+  padding-bottom: 1em;
 }
 
 @media (max-width: 60em) {
@@ -6538,7 +6552,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Balsamiq Sans", cursive;
   margin-top: 0;
   margin-bottom: 0.6em;
   font-weight: bold;
@@ -6547,7 +6561,7 @@ h6 {
 }
 
 h1 {
-  font-family: "Corben", cursive;
+  font-family: "Acme", sans-serif;
 }
 
 p,
@@ -6619,12 +6633,12 @@ p {
 }
 
 .nav ul li:hover {
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: rgba(255, 255, 255, 0.2);
   cursor: pointer;
 }
 
 .nav ul li:hover a {
-  color: #f9c8d9;
+  color: rgba(255, 255, 255, 0.87);
   font-weight: bold;
 }
 
@@ -6669,11 +6683,11 @@ p {
   font-weight: bold;
   background-image: linear-gradient(160deg, #000, rgba(255, 255, 255, 0.05) 70%);
   border-radius: 10px;
-  box-shadow: 0 0 0 2px #121212, 0 0 0 3px rgba(255, 255, 255, 0.08), 0 0 0 9px rgba(255, 255, 255, 0.12), 0 0 0 10px #121212;
+  box-shadow: 0 0 0 2px #121212, 0 0 0 3px rgba(255, 255, 255, 0.2), 0 0 0 9px rgba(255, 255, 255, 0.12), 0 0 0 10px #121212;
 }
 
 .tech-box:hover {
-  box-shadow: 0 0 0 2px #121212, 0 0 0 3px rgba(255, 255, 255, 0.05), 0 0 0 9px rgba(255, 255, 255, 0.05), 0 0 0 10px #121212;
+  box-shadow: 0 0 0 2px #121212, 0 0 0 3px rgba(255, 255, 255, 0.05), 0 0 0 9px rgba(255, 255, 255, 0.2), 0 0 0 10px #121212;
 }
 
 .project {
@@ -6725,7 +6739,7 @@ p {
   padding: 0.25em 1em;
 }
 .tech-nav ul li:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
   cursor: pointer;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.87);
@@ -6786,7 +6800,7 @@ code {
   padding: 0.1em 0.2em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.2);
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6796,7 +6810,7 @@ pre {
   padding: 0 1em;
   border: 1px solid #121212;
   border-radius: 0.3em;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.2);
 }
 
 pre code {
@@ -6813,5 +6827,5 @@ blockquote {
   font-style: italic;
   margin-left: 1em;
   padding-left: 1em;
-  border-left: 0.5em solid rgba(255, 255, 255, 0.08);
+  border-left: 0.5em solid rgba(255, 255, 255, 0.2);
 }

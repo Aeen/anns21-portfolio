@@ -24,6 +24,11 @@ body {
     border-radius: 8px;
     background-color: $background-main-color;
     margin-bottom: 1em;
+
+    img {
+        filter: $image-filter;
+    }
+
 }
 
 ol,
@@ -38,6 +43,17 @@ ul {
 img {
     max-width: 100%;
     border-radius: 5px;
+}
+
+.color-palette {
+    height: 50px;
+    width: 50px;
+}
+
+.table-palette {
+    border-spacing: 4px;
+    border-collapse: separate;
+    padding-bottom: 1em;
 }
 
 @media (max-width: 60em) {

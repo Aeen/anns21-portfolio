@@ -38,17 +38,17 @@ Resultat
 ![PrintScreen på Lekmers startsida](../image/lekmer.png)
 
 #### Färger
-<table style="border-spacing: 4px; border-collapse: separate; padding-bottom: 1em">
+<table class="table-palette">
     <tr>
-        <td style="height: 50px; width: 50px; background-color: #1B293C">
-        <td style="height: 50px; width: 50px; background-color: #3A5CA2">
-        <td style="height: 50px; width: 50px; background-color: #8BCFE5">
-        <td style="height: 50px; width: 50px; background-color: #A0DDF7">
-        <td style="height: 50px; width: 50px; background-color: #D99BB9">
-        <td style="height: 50px; width: 50px; background-color: #DA3138">
-        <td style="height: 50px; width: 50px; background-color: #D77043">
-        <td style="height: 50px; width: 50px; background-color: #E8BF45">
-        <td style="height: 50px; width: 50px; background-color: #63B658"> 
+        <td class="color-palette" style="background-color: #1B293C">
+        <td class="color-palette" style="background-color: #3A5CA2">
+        <td class="color-palette" style="background-color: #8BCFE5">
+        <td class="color-palette" style="background-color: #A0DDF7">
+        <td class="color-palette" style="background-color: #D99BB9">
+        <td class="color-palette" style="background-color: #DA3138">
+        <td class="color-palette" style="background-color: #D77043">
+        <td class="color-palette" style="background-color: #E8BF45">
+        <td class="color-palette" style="background-color: #63B658"> 
     </tr>
 </table>
 
@@ -58,19 +58,19 @@ Jag har enbart utgått från färger i headern, logotypen, i boxar, knappar, tex
 
 Lekmers mest använda färg är #1B293C, vilket motsvarar den första färgen till vänster bland färgerna ovan. Den förekommer i headern, på knappar, i bilder och även som textfärg. 
 
-När jag använder mig av Adobes färghjul för att bestämma färgschema, hittar jag inte riktigt ett färgschema som matchar fullt ut. Jag skulle vilja påstå att Lekmer utgår från ett färgschema med nyanser av blått, för att sen komplettera dessa med lekfulla, levande färger, och att de kompletterande färgerna utgår från tyckte och smak.
+När jag använder mig av Adobes färghjul för att bestämma färgschema, hittar jag inte riktigt ett färgschema som matchar fullt ut. Jag skulle vilja påstå att Lekmer utgår från ett färgschema med nyanser av blått, för att sen komplettera dessa med lekfulla, levande färger, och att de kompletterande färgerna utgår från tyckte och smak. Lekmers sida utgår från blå, och den färg som återfinns på andra sidan färhjulet är gult (om vi pratar accentfärg), det verkar däremot inte va en färg dom satsat på i den mån att den förekommer mer än andra färger för att komplettera blå, utan mer som ett glatt inslag i helheten. Däremot, om vi delar in färghjulet i två halvor, så förekommer både grönt, rött och gult på motsatt sida, eller mer åt det hållet. 
 
 #### Typsnitt
 Lekmer har som generell inställning följande typsnitt, i exakt denna följd, till deras löpande text, knapptexter, i sökrutan etc: 
 apercu-regular-pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif.
 
-<span style="font-family: Apercu Pro">Apercu pro regular som löpande text.</span>
+<span style="font-family: Apercu Pro">Apercu pro regular är ett sans-serif, så här ser det ut som löpande text.</span>
 
 Typsnittet som visas för mig är 'apercu-regular-pro', vilket ger ett lugnt intryck och passar bra till ljusa färger. Typsnittet förmedlar en lekfullhet med sina lite rundade former och känns därför inte allt för formellt.
 
 För rubriker har Lekmer valt följande typsnitt, i exakt denna följd: Animated Gothic W90 Heavy, Arial, sans-serif.
 
-<span style="font-family: 'AnimatedGothicW90-Heavy'; font-weight: bold">Animated Gothic W90 Heavy som rubrik</span><br>
+<span style="font-family: 'AnimatedGothicW90-Heavy'; font-weight: bold">Animated Gothic W90 Heavy är ett sans-serif, så här ser det ut.</span><br>
 
 Typsnittet som visas för mig är 'Animated Gothic W90 Heavy', vilket är ett brokigt, tjockt och lekfullt typsnitt, som passar perfekt som rubriker i alla sammanhang som har med barn att göra. Verkligen pricken över i:et.  
 
@@ -79,17 +79,17 @@ Typsnittet som visas för mig är 'Animated Gothic W90 Heavy', vilket är ett br
 ![PrintScreen på Hikos startsida](../image/hiko.png)
 
 #### Färger
-<table style="border-spacing: 4px; border-collapse: separate; padding-bottom: 1em">
+<table class="table-palette">
     <tr>
-        <td style="height: 50px; width: 50px; background-color: #B61B0B">
-        <td style="height: 50px; width: 50px; background-color: #DA0E05">
-        <td style="height: 50px; width: 50px; background-color: #E82800">
-        <td style="height: 50px; width: 50px; background-color: #0E97C4">
-        <td style="height: 50px; width: 50px; background-color: #C9E8F4">
-        <td style="height: 50px; width: 50px; background-color: #E3F3FA">
-        <td style="height: 50px; width: 50px; background-color: #FDF700">
-        <td style="height: 50px; width: 50px; background-color: #258A06">
-        <td style="height: 50px; width: 50px; background-color: #2CA207">
+        <td class="color-palette" style="background-color: #B61B0B">
+        <td class="color-palette" style="background-color: #DA0E05">
+        <td class="color-palette" style="background-color: #E82800">
+        <td class="color-palette" style="background-color: #0E97C4">
+        <td class="color-palette" style="background-color: #C9E8F4">
+        <td class="color-palette" style="background-color: #E3F3FA">
+        <td class="color-palette" style="background-color: #FDF700">
+        <td class="color-palette" style="background-color: #258A06">
+        <td class="color-palette" style="background-color: #2CA207">
     </tr>
 </table>
 
@@ -97,14 +97,14 @@ Hiko har flera nyanser av både rött och blått, eftersom de dels använder sig
 
 Jag har enbart utgått från färger i logotypen, i bakgrunden, knappar etc. och inte tagit färger från några bilder och banners.
 
-Jag använder mig av Adobes färghjul för att bestämma färgschema, och om jag fokuserar på den gula färgen i logotypen, den röda färgen i menyn, och den blå färgen för bakgrunden, så påminner det om ett triadiskt färgschema. Den gröna färgen är komplementär till den röda, vilket kan förklara att de valt just grönt för knappar, som harmoniserar tillsammans med den röda pristexten. Grön och blå framhävs dessutom tillsammans, och förekommer i ett triadiskt färgschema, men den tredje färgen som i detta fallet hade varit brunt, framkommer inte på sidan. Därför tror jag att de inte utgått från ett färgschema utan valt färger på måfå, och efter att de bestämt sig för en röd meny, har dom tagit en annan nyans för hover, och samma för de gröna knapparna, och sen kompletterat detta med en gradient blå molnbakgrund.
+Jag använder mig av Adobes färghjul för att bestämma färgschema, och om jag fokuserar på den gula färgen i logotypen, den röda färgen i menyn, och den blå färgen för bakgrunden, så påminner det om ett triadiskt färgschema. Den gröna färgen (accentfärg) är komplementär till den röda, vilket kan förklara att de valt just grönt för knappar, som harmoniserar tillsammans med den röda pristexten. Grön och blå framhävs dessutom tillsammans, och förekommer i ett triadiskt färgschema, men den tredje färgen som i detta fallet hade varit brunt, framkommer inte på sidan. Därför tror jag att de inte utgått från ett färgschema utan valt färger på måfå, och efter att de bestämt sig för en röd meny, har dom tagit en annan nyans för hover, och samma för de gröna knapparna, och sen kompletterat detta med en gradient blå molnbakgrund.
 
 #### Typsnitt
 
 Hiko har som generell inställning följande typsnitt för alla deras texter, i exakt denna följd: Lato, Verdana, Geneva, Tahoma, sans-serif. Den används alltså både i löpande text, på knappar, i textrutor och som rubriker.
 
 <span style="font-family: Lato; font-weight: bold">Lato som rubrik</span><br>
-<span style="font-family: Lato">Lato som löpande text under Lato som rubrik.</span>
+<span style="font-family: Lato">Lato är ett sans-serif, så här ser det ut som löpande text under Lato som rubrik.</span>
 
 Typsnittet som visas för mig är 'Lato', vilket är ett litet, elegant och lättläst typsnitt, som visserligen fyller sin funktion. Att kunden kan läsa vad det står, men jag hade önskat ett lite lekfullare typsnitt. Typsnittet känns mer som "Hej, kom och läs denna informationstext som handlar om [...], snarare än "Hej, den här leksaken vill din femåriga dotter gärna ha av jultomten i år", och hade passat bra i ett annat sammanhang. Jag hade önskat att de åtminstone hade valt ett annat typsnitt för sina rubriker, som hade känts lite mer levande och lekfullt. 
 
@@ -113,17 +113,17 @@ Typsnittet som visas för mig är 'Lato', vilket är ett litet, elegant och lät
 ![PrintScreen på LekAkademin startsida](../image/lekakademin.png)
 
 #### Färger
-<table style="border-spacing: 4px; border-collapse: separate; padding-bottom: 1em">
+<table class="table-palette">
     <tr>
-        <td style="height: 50px; width: 50px; background-color: #5A5A5A">
-        <td style="height: 50px; width: 50px; background-color: #C15251">
-        <td style="height: 50px; width: 50px; background-color: #E07A78">
-        <td style="height: 50px; width: 50px; background-color: #26513D">
-        <td style="height: 50px; width: 50px; background-color: #317E5A">
-        <td style="height: 50px; width: 50px; background-color: #F6C200">
-        <td style="height: 50px; width: 50px; background-color: #F7C042">
-        <td style="height: 50px; width: 50px; background-color: #4AB1BC">
-        <td style="height: 50px; width: 50px; background-color: #C0D6D8">
+        <td class="color-palette" style="background-color: #5A5A5A">
+        <td class="color-palette" style="background-color: #C15251">
+        <td class="color-palette" style="background-color: #E07A78">
+        <td class="color-palette" style="background-color: #26513D">
+        <td class="color-palette" style="background-color: #317E5A">
+        <td class="color-palette" style="background-color: #F6C200">
+        <td class="color-palette" style="background-color: #F7C042">
+        <td class="color-palette" style="background-color: #4AB1BC">
+        <td class="color-palette" style="background-color: #C0D6D8">
     </tr>
 </table>
 
@@ -133,20 +133,20 @@ Jag har enbart utgått från färger i logotypen, headern, på knappar, i figure
 
 När jag använder mig av Adobes färghjul för att bestämma färgschema, utgår jag från både den gröna och den blå färgen, då jag anser att båda färgerna är de som framträder mest i olika element på sidan. Ur det synsättet skulle det kunna vara ett analogt färgschema, eftersom färgerna ligger väldigt nära varandra i färgcirkeln och skapar ett enhetligt intryck.
 
-Utöver dessa två basfärger, använder sig LekAkademin sig av grått, gul och rödrosa. Den rödrosa skulle kunna ses som en komplementfärg till det gröna och blå, då de ligger på motsatt sida i färgcirkeln. Man skulle också kunna se det som att den rödrosa är komplementär till den gröna, och att den gula är komplementär till den gröna. Jag tror däremot inte att LekAkademin haft någon avsiktlig tanke vad gäller färgschema, utan att de försökt få med många lekiga färger, och sen sett till att de håller samma mättnad. 
+Utöver dessa två basfärger, använder sig LekAkademin sig av grått, gul och rödrosa. Den rödrosa skulle kunna ses som en komplementfärg (enligt adobes färghjul där två färger ligger nära varandra och den tredje längre ifrån) till det gröna och blå. Man skulle också kunna se det som att den rödrosa är komplementär (accentfärg) till den gröna, och att den gula är komplementär (accentfärg) till den gröna. Jag tror däremot inte att LekAkademin haft någon avsiktlig tanke vad gäller färgschema, utan att de försökt få med många lekiga färger, och sen sett till att de håller samma mättnad. 
 
 #### Typsnitt
 LekAkademin använder sig av tre olika typsnittskombinationer på sina sida. Det finns ingen uppdelning i att rubriker har en typ, löpande text en annan, och menyn en tredje. 
 
 LekAkademin använder Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif, i exakt den ordningen i sökrutan och för någon knapp.
 
-<span style="font-family: 'open sans'">Open Sans som text i sökruta.</span>
+<span style="font-family: 'open sans'">Open Sans är ett sans-serif, så här ser det ut.</span>
 
 'Open Sans' är det typsnittet som visas för mig, och jag tycker att det är ett väldigt trevligt typsnitt som gör sig bäst i rubriker, men det ser absolut trevligt ut både i sökrutan och för den knappen där de använder typsnittet. Det passar i den kontexten med de färgerna. 
 
 LekAkademin använder Helvetica, Arial, i exakt den ordningen i sitt body-element, och den förekommer dels högst upp på sidan i informationstexten, men även längre ner på sidan i korta informativa texter som "Om du ångrar dit köp", "Ring [...]", samt både som rubrik och i löpande text längre ner på sidan där det står informativ text om pedagogiska leksaker och som p-element i footern. 
 
-<span style="font-family: AG_Helvetica">Helvetica som text.</span>
+<span style="font-family: AG_Helvetica">Helvetica: ett sans-serif.</span>
 
 'Helvetica' är det typsnittet som visas för mig, och är ett trevligt och säkert kort som gör sig bra i de allra flesta sammanhang. Inga skarpa kanter, men ändå tydliga konturer som gör det lättläst på ett lite mer avslappnat vis. Jag tycker att typsnittet passar bra i informativa texter, i footern och liknande, men skulle framhävas bättre tillsammans med ett annat typsnitt som rubrik.
 
@@ -154,7 +154,7 @@ LekAkademin använder Fresca, sans-serif, i exakt den ordningen för text i meny
 
 <span style="font-family: Fresca; font-weight: bold">FRESCA SOM RUBRIK MED VERSALER.</span><br>
 <span style="font-family: Fresca; font-weight: bold">Fresca som rubrik, menytext etc.</span><br>
-<span style="font-family: Fresca">Fresca som löpande text.</span>
+<span style="font-family: Fresca">Fresca är ett sans-serif, så här ser det ut som löpande text.</span>
 
 'Fresca' är det typsnitt som visas för mig, och jag tycker att versaler framhävs mycket bättre än gemener för detta typsnitt. Där Fresca används som rubrik med versaler, är det ett väldigt snyggt typsnitt, som passar in i sammanhanget både med färg och form. Däremot tycker jag inte att typsnittet är lika tilltalande som gemener, där det känns spretigt. Typsnittet känns inte helt rätt för längre texter, och inte riktigt överlag för den här sidan på det sättet som det används på. 
 
