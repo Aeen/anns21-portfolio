@@ -5,7 +5,7 @@ Template: technology
 menu: analysis
 ---
 
-# 01 Colors
+# Färg & Typsnitt
 
 Jag kommer utvärdera tre webbplatsers färgval och känslan de signalerar. 
 Genom att dokumentera deras färgpalett och typografi, kan jag sen argumentera kring val av färg

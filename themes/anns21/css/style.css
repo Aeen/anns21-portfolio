@@ -6761,6 +6761,39 @@ p {
     display: none !important;
   }
 }
+.analysis-container {
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
+.img-container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(50px, auto) minmax(100px, auto);
+  place-content: end start;
+  grid-gap: 1em;
+  margin-bottom: 1em;
+}
+
+.img-box {
+  grid-column: span 1;
+}
+
+.analysis {
+  width: 100%;
+  height: 300px;
+}
+
+.analysis-all {
+  width: 100%;
+  height: 625px;
+}
+
+.analysis-rang {
+  width: 100%;
+  height: 540px;
+}
+
 .gallery-page {
   display: grid;
   grid-auto-columns: minmax(0, 1fr);
