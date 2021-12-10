@@ -12,7 +12,7 @@ Jag tog en högskoleexamen i Informatik förra året, och skriver nu parallellt 
 
 Här är en bild på mig och mina två äldsta barn, dock för några år sen :)
 
-![En del av min familj](image/anna.jpg)
+![En del av min familj](image/anna.webp)
 
 Jag tycker om att lära mig saker, att renovera, baka, leka med barnen och att umgås med vänner och familj. Det är däremot en svår balansgång att hinna med allt, och att njuta av det när det alltid är något mer som ska göras. 
 
