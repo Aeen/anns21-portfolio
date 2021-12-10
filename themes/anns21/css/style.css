@@ -6492,6 +6492,8 @@ body {
 }
 .main img {
   filter: brightness(100%);
+  border: 5px solid #ff9e9e;
+  border-radius: 10px;
 }
 
 ol,
@@ -6562,6 +6564,10 @@ h6 {
 
 h1 {
   font-family: "Corben", cursive;
+  padding-bottom: 0.25em;
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(to right, #ff9e9e 0%, #ffebeb 50%);
+  border-image-slice: 1;
 }
 
 p,
@@ -6816,6 +6822,8 @@ p {
 .gallery-box img {
   max-width: 100%;
   max-height: 100%;
+  border: 5px solid #ff9e9e;
+  border-radius: 10px;
 }
 
 .gallery {
@@ -6835,6 +6843,8 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
+  border: 5px solid #ff9e9e;
+  border-radius: 10px;
 }
 
 @media (max-width: 30em) {
@@ -6854,6 +6864,8 @@ p {
   background-color: #ffb7b7;
   padding: 1.5em;
   border-radius: 8px;
+  background: radial-gradient(#fafff7 3px, transparent 4px), radial-gradient(#fafff7 3px, transparent 4px), linear-gradient(#ffb7b7 4px, transparent 0), linear-gradient(45deg, transparent 74px, transparent 75px, #ffebeb 75px, #ffebeb 76px, transparent 77px, transparent 109px), linear-gradient(-45deg, transparent 75px, transparent 76px, #ffebeb 76px, #ffebeb 77px, transparent 78px, transparent 109px), #ffb7b7;
+  background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
 }
 
 .footer a {
@@ -6862,6 +6874,7 @@ p {
 
 .footer p {
   margin: 0;
+  font-weight: bold;
 }
 
 .footer .social {

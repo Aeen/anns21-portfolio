@@ -27,6 +27,8 @@ body {
 
     img {
         filter: $image-filter;
+        border: 5px solid $background-hover-nav-color;
+        border-radius: 10px;
     }
 }
 
@@ -42,6 +44,7 @@ ul {
 img {
     max-width: 100%;
     border-radius: 5px;
+    
 }
 
 .color-palette {

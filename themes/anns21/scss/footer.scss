@@ -6,6 +6,15 @@
     background-color: $background-footer-color;
     padding: 1.5em;
     border-radius: 8px;
+
+    background: 
+    radial-gradient($background-body-color 3px, transparent 4px),
+    radial-gradient($background-body-color 3px, transparent 4px),
+    linear-gradient($background-footer-color 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, $background-main-color 75px, $background-main-color 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, $background-main-color 76px, $background-main-color 77px, transparent 78px, transparent 109px),
+    $background-footer-color;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
 }
 
 .footer a {
@@ -14,6 +23,7 @@
 
 .footer p {
     margin: 0;
+    font-weight: bold;
 }
 
 .footer .social {

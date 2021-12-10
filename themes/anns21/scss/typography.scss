@@ -27,6 +27,10 @@ h6 {
 
 h1 {
     font-family: $font-h1;
+    padding-bottom: 0.25em;
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(to right, $background-hover-nav-color 0%, $background-main-color 50%);
+    border-image-slice: 1;
 }
 
 p,

@@ -72,7 +72,9 @@ Färgsättningen gynnar väl en personlig sida, en sida av mig. Sen hade jag nog
 
 Det förekommer linjer (line) i designen, även en övervägd färgsättning (colour). På gallerisidan eller analyssidan exempelvis förekommer även grid och symmetri. Men i övrigt presenteras det likartat och det finns en balans i hur elementen presenteras.
 
-Jag skulle kunna ha en ram runt mina bilder, men tycker ändå att det gör sig fint i sammanhanget med rundade hörn och kommer därför att låta det vara som det är. Likaså skulle jag kunnat använt andra kulörer för att mer spegla en portfolio där jag är intresserad av att bli kontaktad för ett jobb, men jag är ändå nöjd med de färgerna jag valt och tycker att de passar bra i det här skolsammanhanget. Något som skulle varit roligt att ha på sidan är lite mer rörelser (movement), så beroende på vad tiden räcker till kommer jag nog fundera på hur jag skulle kunna åstadkomma det.
+Jag skulle kunna ha en ram (frame) runt mina bilder, så det har jag ordnat. Likaså skulle jag kunnat använt andra kulörer för att mer spegla en portfolio där jag är intresserad av att bli kontaktad för ett jobb, men jag är ändå nöjd med de färgerna jag valt och tycker att de passar bra i det här skolsammanhanget. Jag har lagt in en linje (line) under h1 element. ag har även experimenterat med footern. Den kan absolut göras bättre, och på flera olika sätt. Men det blev så här jag valde att landa i det här försöket. 
+
+Jag har alltså implementerat en ram runt mina bilder, en linje under mina h1 rubriker och textur i min footer. 
 
 ### Jämförelse
 
