@@ -68,5 +68,5 @@ Gallery
 </div>
 
 <div class="gallery-box gallery">
-   <iframe src="https://www.youtube.com/embed/zXCiv4sc5eY" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.youtube.com/embed/zXCiv4sc5eY" frameborder="0" allowfullscreen title="Ett YouTube klipp"></iframe>
 </div>
